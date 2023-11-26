@@ -61,7 +61,7 @@ class RegistrationPage():
         browser.element('#city').click().element(by.text('Karnal')).click()
 
     def submit(self):
-        browser.element('#submit').click()
+        browser.element('#submit').press_enter()
 
     def modal_header(self):
         return browser.element('.modal-header')
